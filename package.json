@@ -1,0 +1,17 @@
+{
+  "name": "@cababunga/lru",
+  "version": "0.5.0",
+  "description": "In process cache with least-recently-used eviction logic, O(1) complexity for all operations and optional compression.",
+  "scripts": {
+    "test": "mocha *.test.js",
+    "bump": "npm version ${BUMP:=patch} && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cababunga/base-lru"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.25"
+  }
+}
